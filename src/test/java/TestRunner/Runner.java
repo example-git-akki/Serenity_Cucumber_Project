@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features",
         glue = "stepDefinitions"
-//        plugin = {"pretty"}, monochrome = true
+
 )
 public class Runner {
 }
